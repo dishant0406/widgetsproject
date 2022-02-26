@@ -1,5 +1,6 @@
 import React from 'react';
-import Accordion from './components/Accordion';
+import Accordion from './components/Accordian/Accordion';
+import Search from './components/SearchWiki/search';
 
 const items = [
   {
@@ -20,7 +21,10 @@ const App = () => {
   return (
     <div>
       <br />
-      <Accordion items={items} />
+      {/* <Accordion items={items} /> */}
+
+      <Search />
+      <br />
     </div>
   )
 }
